@@ -1,6 +1,4 @@
-# Ruby
-
-## Programming Fundamentals
+# Programming Fundamentals
 
 1. [Printing](printing.rb)
 2. [Data Types](data_types.rb)

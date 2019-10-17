@@ -1,5 +1,5 @@
 # Coding Lessons
 
-## Ruby
+## [Ruby](ruby)
 
-1. [Programming Fundamentals](1-programming-fundamentals)
+1. [Programming Fundamentals](ruby/1-programming-fundamentals)
