@@ -1,0 +1,37 @@
+<div class="row">
+  <div class="col-sm-3">
+    One of three columns
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <%= form_for @new_post do |f| %>
+          <div class="input-group">
+            <%= f.text_field :content, class: 'form-control' %>
+
+            <div class="input-group-append">
+              <%= f.submit class: 'btn btn-outline-secondary' %>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+
+    <% if @posts.any? %>
+      <% @posts.each do |post| %>
+        <%= render 'posts/item', post: post %>
+      <% end %>
+    <% elsif %>
+      <div class="card">
+        <div class="card-body">
+          You have no posts
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="col-sm-3">
+    One of three columns
+  </div>
+</div>

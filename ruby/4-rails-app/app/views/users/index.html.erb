@@ -1,0 +1,9 @@
+Hello
+
+<ul>
+  <% @users.each do |user| %>
+    <li><%= link_to user.to_s, user %> <%= link_to "Delete", user, method: :delete %></li>
+  <% end %>
+</ul>
+
+<%= link_to 'Create User', new_user_path %>
