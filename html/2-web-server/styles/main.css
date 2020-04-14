@@ -26,13 +26,31 @@
 }
 
 .card > .card-actions {
-  padding: 0 16px 16px 16px;
+  padding: 0 8px 16px 8px;
+}
+
+.card > .card-actions > a {
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #1a76d2;
+}
+
+.card > .card-actions > a:hover {
+  background-color: rgba(0,0,0,0.12);
 }
 
 .card h1, p {
   margin: 0;
 }
 
+.card h1 {
+  margin-bottom: 8px;
+}
+
 .card p {
   font-family: sans-serif;
+  color: #4b5364;
 }
