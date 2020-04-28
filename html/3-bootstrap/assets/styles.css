@@ -1,0 +1,31 @@
+.title-section {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.footer {
+  color: #abb2bf;
+  background-color: #282c34;
+  padding: 16px;
+}
+
+.links-footer-section {
+
+}
+
+.links-footer-section ul,
+.contact-footer-section ul
+{
+  padding: 0;
+  list-style: none;
+}
+
+.links-footer-section h6,
+.contact-footer-section h6
+{
+  font-size: 2em;
+}
+
+.contact-footer-section {
+
+}
